@@ -109,28 +109,23 @@ a{
 }
 
 /*submenu*/
-#submenubar{
- /* background-color:#FDF3E8;
-  border-width:3px;
-  border-color:#C63D0F;
-  border-style:solid;*/
+/*#submenu{
+    color: #3B3738;
+        padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
   margin:auto;
-  text-align: center;
-  display: inline-block; 
+
 }
-#submenubar a{
-    border-width:3px;
-    width:60px;
+#submenu a{
+  border-width:3px;
+  width:60px;
   border-color:#C63D0F;
+  background-color: #fbe7cf;
   border-style:solid;
   text-align: center
-}
-/*
-#submenuborder{
-  background-color:#FDF3E8;
-  padding: 1px 1px 1px 1px;
-  width: 80%;
-  margin: auto;
 }
 */
 
