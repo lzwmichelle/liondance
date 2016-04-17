@@ -25,6 +25,7 @@ a{
 .center{
     text-align: center;
 }
+
 /*Colors*/
 .orange{
       color: #C63D0F;
@@ -48,9 +49,6 @@ a{
 }
 
 
-
-
-
 /*Navigation Bar*/
 #menubar{
   background-color:#FDF3E8;
@@ -68,11 +66,7 @@ a{
   margin: auto;
  /* display: inline-block; */
 }
-/*
-.title{
-  display: inline-block;
-}
-*/
+
 .menu:link{
   color: #3B3738;
     /* background-color: #FDF3E8;*/
@@ -83,17 +77,14 @@ a{
     display: inline-block;
 }
 .menu:visited{
-   color: #3B3738;
-    /* background-color: #FDF3E8;*/
-        padding: 14px 25px;
+    color: #3B3738;
+    padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     font-size: 25px;
     display: inline-block;
 }
 .menu:hover{
-    /* background-color: #D2C9C1;
-       color: #3B3738; */
     background-color: #D2C9C1;
     color: #7E8F7C;
     padding: 14px 25px;
@@ -103,31 +94,8 @@ a{
     display: inline-block;
 }
 .active{
-  /*background-color: #f7d0a0;
-  background-color: #f9dbb8;*/
    background-color: #fbe7cf;
 }
-
-/*submenu*/
-/*#submenu{
-    color: #3B3738;
-        padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-    display: inline-block;
-  margin:auto;
-
-}
-#submenu a{
-  border-width:3px;
-  width:60px;
-  border-color:#C63D0F;
-  background-color: #fbe7cf;
-  border-style:solid;
-  text-align: center
-}
-*/
 
 /*Home*/
 .picture{
