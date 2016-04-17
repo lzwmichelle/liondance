@@ -14,16 +14,17 @@ a{
 .menufont{
   font-family: 'Rum Raisin', sans-serif;
 }
-.font{
-  font-family: 'Rum Raisin', FZCuSong, SimHei, , Hiragino Sans GB, STFangsong, sans-serif;
-  text-align: center;
+.fontt{
+  font-family: 'Rum Raisin', FZCuSong, SimHei, Hiragino Sans GB, STFangsong, sans-serif;
 }
 .fontp{
   font-family: 'Dosis', SimSun, STHeiti Light, sans-serif;
-  text-align: center;
   margin:3%;
 }
 
+.center{
+    text-align: center;
+}
 /*Colors*/
 .orange{
       color: #C63D0F;
@@ -43,7 +44,7 @@ a{
   margin: auto;
   width:80%;
   background-color:#FDF3E7;
-  /*text-align: center;*/
+  text-align: center;
 }
 
 
@@ -107,8 +108,31 @@ a{
    background-color: #fbe7cf;
 }
 
-
-
+/*submenu*/
+#submenubar{
+ /* background-color:#FDF3E8;
+  border-width:3px;
+  border-color:#C63D0F;
+  border-style:solid;*/
+  margin:auto;
+  text-align: center;
+  display: inline-block; 
+}
+#submenubar a{
+    border-width:3px;
+    width:60px;
+  border-color:#C63D0F;
+  border-style:solid;
+  text-align: center
+}
+/*
+#submenuborder{
+  background-color:#FDF3E8;
+  padding: 1px 1px 1px 1px;
+  width: 80%;
+  margin: auto;
+}
+*/
 
 /*Home*/
 .picture{
@@ -118,7 +142,7 @@ a{
 
 /*rules*/
 ul{
-  margin-left: 15%;
-  margin-right: 15%;
   font-family: 'Dosis', sans-serif;
+  list-style-position: inside;
+  margin-left: 0;
 }
