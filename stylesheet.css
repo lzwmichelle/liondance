@@ -1,0 +1,124 @@
+/*Basic Layout*/
+body{
+  background-color:#C63D0F;
+}
+img{
+  height:300px;
+}
+a{
+  text-decoration: none;
+}
+
+
+/*Fonts*/
+.menufont{
+  font-family: 'Rum Raisin', sans-serif;
+}
+.font{
+  font-family: 'Rum Raisin', FZCuSong, SimHei, , Hiragino Sans GB, STFangsong, sans-serif;
+  text-align: center;
+}
+.fontp{
+  font-family: 'Dosis', SimSun, STHeiti Light, sans-serif;
+  text-align: center;
+  margin:3%;
+}
+
+/*Colors*/
+.orange{
+      color: #C63D0F;
+}
+.black{
+      color: #3B3738;
+}
+.white{
+      color: #FDF3E7;
+}
+.grey{
+      color: #7E8F7C;
+}
+.shadow{
+  padding-top:10px;
+  padding-bottom:30px;
+  margin: auto;
+  width:80%;
+  background-color:#FDF3E7;
+  /*text-align: center;*/
+}
+
+
+
+
+
+/*Navigation Bar*/
+#menubar{
+  background-color:#FDF3E8;
+  border-width:3px;
+  border-color:#C63D0F;
+  border-style:solid;
+  margin:2px 2px 2px 2px;
+  text-align: center;
+  /*display: inline-block; */
+}
+#menuborder{
+  background-color:#FDF3E8;
+  padding: 1px 1px 1px 1px;
+  width: 80%;
+  margin: auto;
+ /* display: inline-block; */
+}
+/*
+.title{
+  display: inline-block;
+}
+*/
+.menu:link{
+  color: #3B3738;
+    /* background-color: #FDF3E8;*/
+        padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+}
+.menu:visited{
+   color: #3B3738;
+    /* background-color: #FDF3E8;*/
+        padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+}
+.menu:hover{
+    /* background-color: #D2C9C1;
+       color: #3B3738; */
+    background-color: #D2C9C1;
+    color: #7E8F7C;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+}
+.active{
+  /*background-color: #f7d0a0;
+  background-color: #f9dbb8;*/
+   background-color: #fbe7cf;
+}
+
+
+
+
+/*Home*/
+.picture{
+  vertical-align: top;
+  display:inline-block;
+}
+
+/*rules*/
+ul{
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: 'Dosis', sans-serif;
+}
