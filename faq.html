@@ -3,31 +3,60 @@
 <html>
 <head>
     <title>Lion Dance</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="stylesheet.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Dosis:500|Rum+Raisin' rel='stylesheet' type='text/css'>
     <meta charset="UTF-8">
 </head>
 <body>
-      <!--Navigation bar-->
- <div id="menuborder">
-  <div id="menubar">
-     <a class="menu menufont" href="index.html">Home</a>
-    <a class="menu menufont" href="history.html">History</a>
-    <a class="menu menufont" href="types.html">Types</a>
-    <a class="menu menufont" href="music.html">Music</a>
-    <a class="menu menufont" href="rules.html">Rules</a>
-    <a class="menu menufont active" href="faq.html">FAQ</a>
-    <a class="menu menufont" href="comments.html">Comments and Questions</a>
-  </div>
-  </div>
-  
+        <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand menufont" href="index.html">Lion Dance</a>
+            
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+    </button>
+         
+          </div><!--Navbar-header ends-->
+        
+          <div class="collapse navbar-collapse" id="myNavbar">
+            
+            
+            <ul class="nav nav-tabs nav-justified navcolor menufont">
+              <li> <a href="index.html">Home</a></li>
+              <li class="dropdown">
+                  <a id="dLabel" data-target="#" href="history.html" data-toggle="dropdown" role="button"><!--Drop down menu-->About
+                  <span class="caret"><!--To produce that arrow pointing down--></span>
+                  </a>
+                  <ul class="dropdown-menu navcolor menufont"><!--The choices-->
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="types.html">Types of Lion Dance</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="rules.html">Rules of lion dance</a></li>
+                  </ul>
+              </li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a  class="active" href="faq.html">Frequently Ask Question</a></li>
+              <li><a href="comments.html">Contact Us</a></li>
+              
+              
+              
+            </ul><!--Navbar ul ends-->
+          </div><!--div holding ul list ends-->
+        </div><!--container-fluid ends-->
+          </nav><!--Navbar ends-->
    <!--Body--> 
- <br>
+ <br>  <br> <br><br>
   <div class="shadow">
       <!--Sub menu-->
+ 
       <div class="submenu">
-      <a class="menu menufont active" href="#cartoon">Cartoon</a>
-    <a class="menu menufont active" href="#videos">Videos</a>
+      <a class="menu menufont active" href="#cartoon"><button type="button" class="btn btn-primary">Cartoon</button></a>
+    <a class="menu menufont active" href="#videos"><button type="button" class="btn btn-primary">Videos</button></a>
 
   </div>
     
@@ -68,6 +97,11 @@
 
 
 </div>   
+
+
+    <script rel="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>  
+    <script rel="javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
 
 </body>
 </html>

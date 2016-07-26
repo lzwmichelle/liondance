@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css" type="text/css" />
+        <link href='https://fonts.googleapis.com/css?family=Dosis:500|Rum+Raisin' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand menufont" href="index.html">Lion Dance</a>
+            
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+    </button>
+         
+          </div><!--Navbar-header ends-->
+        
+          <div class="collapse navbar-collapse" id="myNavbar">
+            
+            
+            <ul class="nav nav-tabs nav-justified navcolor menufont black">
+              <li> <a href="index.html">Home</a></li>
+              <li class="dropdown">
+                  <a id="dLabel" data-target="#" href="history.html" data-toggle="dropdown" role="button"><!--Drop down menu-->About
+                  <span class="caret"><!--To produce that arrow pointing down--></span>
+                  </a>
+                  <ul class="dropdown-menu navcolor menufont"><!--The choices-->
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="types.html">Types of Lion Dance</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="rules.html">Rules of lion dance</a></li>
+                  </ul>
+              </li>
+              <li class="active"><a href="gallery.html">Gallery</a></li>
+              <li><a href="faq.html">Frequently Ask Question</a></li>
+              <li><a href="comments.html">Contact Us</a></li>
+              
+              
+              
+            </ul><!--Navbar ul ends-->
+          </div><!--div holding ul list ends-->
+        </div><!--container-fluid ends-->
+        
+        
+      </nav><!--Navbar ends-->
+      
+        <br>   <br>  <br>  <br>
+          <div class="shadow">
+      
+      <div class="container">
+        <h2 class ="black fontt">Click on photo to enlarge</h2>
+        <!--a wrapped image in a row column-->
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <a href="#myModalOne" data-toggle="modal">
+              <img  class="gallerypic" src="source/lion1.jpg" class="img-responsive"> 
+            </a><!--End of <a> modal one-->
+          </div><!--End of col 1-->
+
+          <div class="col-xs-12 col-sm-6">
+            <a href="#myModalTwo" data-toggle="modal">
+              <img  class="gallerypic" src="source/lion2.jpg" class="img-responsive">
+            </a> <!--End of <a> modal two-->
+          </div><!--End of col 2-->          
+       
+        </div><!--End of row 1-->
+        
+        
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <a href="#myModalThree" data-toggle="modal">
+               <img  class="gallerypic" src="source/lion3.jpg" class="img-responsive">
+             </a> <!--End of <a> modal three-->
+          </div><!--End of col 3-->
+          
+          <div class="col-xs-12 col-sm-6">
+            
+                    
+            <a href="#myModalFour" data-toggle="modal">
+               <img  class="gallerypic" src="source/lion4.jpg" class="img-responsive">
+             </a> <!--End of <a> modal four-->
+        </div><!--End of col 4-->
+        </div><!--End of row 2-->
+        
+        
+        
+        <!--Simple modal-->
+          <div class="modal fade" id="myModalOne" role="dialog">
+            <div class="moral-dialog">
+              <img src="source/lion1.jpg">
+            </div><!--End of moral-dialog 1-->
+          </div><!--End of simple modal 1-->
+          
+          <div class="modal fade" id="myModalTwo" role="dialog">
+            <div class="moral-dialog">
+              <img src="source/lion2.jpg">
+            </div><!--End of moral-dialog 2-->
+          </div><!--End of simple modal 2-->
+ 
+          <div class="modal fade" id="myModalThree" role="dialog">
+            <div class="moral-dialog">
+              <img src="source/lion3.jpg">
+            </div><!--End of moral-dialog 2-->
+          </div><!--End of simple modal 3-->
+         
+          <div class="modal fade" id="myModalFour" role="dialog">
+            <div class="moral-dialog">
+              <img src="source/lion4.jpg">
+            </div><!--End of moral-dialog 2-->
+          </div><!--End of simple modal 4-->
+     </div><!--End of container-->
+     
+     
+       </div><!--End of shadow-->
+     
+    <script rel="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>  
+    <script rel="javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

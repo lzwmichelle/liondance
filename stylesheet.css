@@ -2,6 +2,7 @@
 body{
   background-color:#C63D0F;
 }
+
 img{
   height:300px;
 }
@@ -13,6 +14,8 @@ a{
 /*Fonts*/
 .menufont{
   font-family: 'Rum Raisin', sans-serif;
+  font-size: 1.5em;
+  font:black;
 }
 .fontt{
   font-family: 'Rum Raisin', FZCuSong, SimHei, Hiragino Sans GB, STFangsong, sans-serif;
@@ -50,51 +53,8 @@ a{
 
 
 /*Navigation Bar*/
-#menubar{
+.navcolor{
   background-color:#FDF3E8;
-  border-width:3px;
-  border-color:#C63D0F;
-  border-style:solid;
-  margin:2px 2px 2px 2px;
-  text-align: center;
-  /*display: inline-block; */
-}
-#menuborder{
-  background-color:#FDF3E8;
-  padding: 1px 1px 1px 1px;
-  width: 80%;
-  margin: auto;
- /* display: inline-block; */
-}
-
-.menu:link{
-  color: #3B3738;
-    /* background-color: #FDF3E8;*/
-        padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-    display: inline-block;
-}
-.menu:visited{
-    color: #3B3738;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-    display: inline-block;
-}
-.menu:hover{
-    background-color: #D2C9C1;
-    color: #7E8F7C;
-    padding: 14px 25px;
-    text-align: center; 
-    text-decoration: none;
-    font-size: 25px;
-    display: inline-block;
-}
-.active{
-   background-color: #fbe7cf;
 }
 
 /*Home*/
@@ -103,8 +63,32 @@ a{
   display:inline-block;
 }
 
+.picheight{
+  height: 300px;
+}
+
 /*rules*/
 ul{
   font-family: 'Dosis', sans-serif;
   list-style-position: inside;
+}
+
+
+
+
+
+.gallerypic{
+  height:180px;
+}
+
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+
+
+.center_div{
+    margin: 0 auto;
+    width:80% /* value of your choice which suits your alignment */
 }
